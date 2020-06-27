@@ -1,0 +1,21 @@
+---Main
+Apply Scalings			: All Local
+Forward					: -Z Forward
+Up						: Y Up
+Empty, Armature and Mesh only
+
+--- Geometries
+Apply Modifiers			: off
+Smoothing				: Face
+Loose Enges				: off
+Tangent Space			: on
+
+--- Armatures
+Only Deform Bones		: on
+Add Leaf Bones			: off
+Primary Bone Axis		: X Axis
+Seconrady Bone Axis		: Y Axis
+Armature FBXNode Type	: Null
+
+--- Animation
+Baked Animation			: off

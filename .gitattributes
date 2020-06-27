@@ -1,0 +1,8 @@
+Levels/Zaton/Zaton_Static* filter=lfs diff=lfs merge=lfs -text
+Levels/Zaton/Zaton_MultiUsage* filter=lfs diff=lfs merge=lfs -text
+Levels/Bar/Bar_MultiUsage* filter=lfs diff=lfs merge=lfs -text
+Levels/Bar/Bar_Static* filter=lfs diff=lfs merge=lfs -text
+Characters/anim_1.fbx filter=lfs diff=lfs merge=lfs -text
+Characters/anim_2.fbx filter=lfs diff=lfs merge=lfs -text
+Characters/anim_3.fbx filter=lfs diff=lfs merge=lfs -text
+Characters/anim_4.fbx filter=lfs diff=lfs merge=lfs -text
