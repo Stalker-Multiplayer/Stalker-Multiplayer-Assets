@@ -1,0 +1,11 @@
++x -> 
+-x ->
++y -> +z
+-y -> -z
++z -> -y
+-z -> +y
+
+
++y rotate 180
++x rotate 90 counterclockwise
+-y rotate 90 clockwise
