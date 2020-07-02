@@ -224,7 +224,7 @@ def putMeshesInSectors():
 					else:
 						dict_multiusageMeshNumbers[materialName] = [ multiusageObject.data ]
 
-					multiusageObject.name = sectorName + '_' + materialName + '_' + str(multiusageNumber)
+					multiusageObject.name = 'm_' + sectorName + '_' + materialName + '_' + str(multiusageNumber)
 					multiusageObject.data.name = materialName + '_' + str(dict_multiusageMeshNumbers[materialName].index(multiusageObject.data))
 					multiusageObject.parent = sector
 
@@ -263,7 +263,7 @@ def putMeshesInSectors():
 
 					decalNumber = decalNumber + 1
 
-					decalObject.name = sectorName + '_' + materialName + '_' + str(decalNumber)
+					decalObject.name = 'd_' + sectorName + '_' + materialName + '_' + str(decalNumber)
 					decalObject.data.name = decalObject.name
 					decalObject.parent = sector
 
