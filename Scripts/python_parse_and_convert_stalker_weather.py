@@ -75,7 +75,7 @@ for line in lines:
 			
 			if propertyName == 'sky_texture':
 				propertyValue = propertyValue[propertyValue.rfind("\\") + 1:]
-				weatherData.skyCubemap = "TextureCube'\"/Game/Levels/Weather/Textures/{0}/{0}_{1}.{0}_{1}\"'".format(prefix, propertyValue)
+				weatherData.skyCubemap = "TextureCube'\"/Game/Levels/Weather/SkyTextures/{0}/{0}_{1}.{0}_{1}\"'".format(prefix, propertyValue)
 			
 			elif propertyName == 'sky_color':
 				weatherData.skyColor, _ = parseColorData(propertyValue)
